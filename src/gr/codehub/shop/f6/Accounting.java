@@ -5,12 +5,16 @@ import java.util.Date;
 import java.util.List;
 
 
-public class Accounting implements ICrudable<Person>{
+public class Accounting implements ICrudable<Person> {
 
     private List<Person> persons;
 
+
+
     public Accounting(){
-         persons = new ArrayList<>();
+
+        persons = new ArrayList<>();
+
     }
 
     public  CardSendDto sendChristmasCard(){

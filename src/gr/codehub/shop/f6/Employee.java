@@ -1,11 +1,24 @@
 package gr.codehub.shop.f6;
 
+import java.math.BigDecimal;
 import java.util.Date;
 
 public class Employee extends Person {
 
     private EmployeeStatus employeeStatus;
     private String afm;
+    private BigDecimal salary;
+
+
+    public BigDecimal getSalary() {
+        return salary;
+    }
+
+    public void setSalary(BigDecimal salary) {
+        this.salary = salary;
+    }
+
+
 
     public Employee(){
        }
